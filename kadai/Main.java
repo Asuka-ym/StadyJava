@@ -52,6 +52,22 @@ public class Main {
 			System.out.println(i);
 		}
 
+		// WorkplaceCommnicationを作成してこんにちは
+		WorkplaceCommunication w1 = new WorkplaceCommunication();
+
+		w1.greet("Hello");
+		
+		// グループ名を指定してこんにちは
+		WorkplaceCommunication w2 = new WorkplaceCommunication("学校");
+		
+		w2.GShandan("Hello");
+		
+		// 詳細を追加してこんにちは
+		WorkplaceCommunication w3 = new WorkplaceCommunication("職場", "上司");
+
+		w3.ee("Hello");
+		
+
 
 
 
